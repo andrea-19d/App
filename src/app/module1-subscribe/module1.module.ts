@@ -1,10 +1,17 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HttpClientModule } from '@angular/common/http';
 import { Module1SubscribeRoutingModule } from './module1-subscribe-routing-module';
 import { ThingListComponent } from './components/thing-list/thing-list';
+import { AreaListComponent } from './components/area-list/area-list';
+import { DashboardComponent } from './components/dashboard/dashboard';
 
 @NgModule({
-  imports: [CommonModule, HttpClientModule, Module1SubscribeRoutingModule, ThingListComponent],
+  imports: [
+    CommonModule,
+    Module1SubscribeRoutingModule,
+    DashboardComponent,
+    ThingListComponent,
+    AreaListComponent,
+  ],
 })
 export class Module1Module {}

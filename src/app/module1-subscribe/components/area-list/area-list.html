@@ -1,1 +1,9 @@
-<p>area-list works!</p>
+<div class="area-list">
+  <h2>Areas (Subscribe Module)</h2>
+  <div class="area-grid">
+    <div *ngFor="let area of areas" class="area-card">
+      <h3>{{ area.name }}</h3>
+      <p>ID: {{ area.areaId }}</p>
+    </div>
+  </div>
+</div>

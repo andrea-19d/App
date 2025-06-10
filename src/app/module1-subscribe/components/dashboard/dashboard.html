@@ -1,0 +1,8 @@
+<div class="container" *ngFor="let area of areas">
+  <h3>{{ area.name }}</h3>
+  <div class="things-row">
+    <div class="thing-card" *ngFor="let thing of getThingsForArea(area.areaId)">
+      <span class="thing-sku">{{ thing.sku }}</span>
+    </div>
+  </div>
+</div>

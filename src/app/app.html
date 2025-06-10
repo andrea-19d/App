@@ -1,6 +1,13 @@
-<main class="main">
-  <div class="content">
-    <router-outlet />  
-  </div>
-</main>
-
+<div class="app-container">
+  <nav class="navigation">
+    <h1>Zones Management</h1>
+    <div class="nav-links">
+      <a routerLink="/subscribe" routerLinkActive="active">Subscribe Module</a>
+      <a routerLink="/async" routerLinkActive="active">Async Module</a>
+    </div>
+  </nav>
+  
+  <main class="main-content">
+    <router-outlet></router-outlet>
+  </main>
+</div>

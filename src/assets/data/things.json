@@ -53,25 +53,25 @@
     "status": "open",
     "countActive": 0
   },
-  {
-    "id": 2973,
-    "areaId": 1791,
-    "joinedWith": null,
-    "sku": "8",
-    "defaultSku": "8",
-    "status": "open",
-    "countActive": 0
-  },
-  {
-    "id": 2974,
-    "areaId": 1791,
-    "joinedWith": null,
-    "sku": "9",
-    "defaultSku": "9",
-    "status": "open",
-    "countActive": 0
-  },
-  {
+    {
+      "id": 2973,
+      "areaId": 1791,
+      "joinedWith": null,
+      "sku": "8",
+      "defaultSku": "8",
+      "status": "open",
+      "countActive": 0
+    },
+    {
+      "id": 2974,
+      "areaId": 1791,
+      "joinedWith": null,
+      "sku": "9",
+      "defaultSku": "9",
+      "status": "open",
+      "countActive": 0
+    },
+    {
     "id": 2975,
     "areaId": 1791,
     "joinedWith": 2973,
