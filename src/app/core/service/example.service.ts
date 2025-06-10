@@ -8,10 +8,12 @@ import { Area } from '../../models/area.model';
 export class ExampleService {
   private http = inject(HttpClient);
 
+  // Fetch the list of "things" from the JSON file
   getThings(): Observable<Thing[]> {
     return this.http.get<Thing[]>('/assets/data/things.json');
   }
 
+  // Fetch the list of "areas" from the JSON file
   getAreas(): Observable<Area[]> {
     return this.http.get<Area[]>('/assets/data/areas.json');
   }
