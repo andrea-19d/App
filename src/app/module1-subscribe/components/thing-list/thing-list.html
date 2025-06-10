@@ -1,3 +1,12 @@
-<div class="list-container">
-    <p>thing-list works!</p>
+<div class="thing-list">
+  <h2>Things (Subscribe Module)</h2>
+  <div class="thing-grid">
+    <div *ngFor="let thing of things" class="thing-card" [class.active]="thing.countActive > 0">
+      <h3>{{ thing.sku }}</h3>
+      <p>Status: {{ thing.status }}</p>
+      <p>Area ID: {{ thing.areaId }}</p>
+      <p *ngIf="thing.joinedWith">Joined with: {{ thing.joinedWith }}</p>
+    </div>
+  </div>
 </div>
+

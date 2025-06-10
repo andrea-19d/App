@@ -1,7 +1,7 @@
 export interface Thing {
   id: number;
   areaId: number;
-  joinedWith: string;
+  joinedWith: number;
   sku: string;
   defaultSku: string;
   status: string;
