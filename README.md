@@ -44,3 +44,6 @@ Stylelint (pentru SCSS):
 ## 🧪 Testare
 
 Testare manuală: navighează la /module1 și /module2 și verifică că datele sunt afișate corect.
+
+Image for the dashboard 10/06/2025
+![image](https://github.com/user-attachments/assets/21181340-ced3-42c4-b26a-a0e092b75cda)
