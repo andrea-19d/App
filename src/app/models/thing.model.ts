@@ -1,4 +1,4 @@
-export interface Things {
+export interface Thing {
   id: number;
   areaId: number;
   joinedWith: string;
